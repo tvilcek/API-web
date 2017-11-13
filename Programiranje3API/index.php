@@ -117,8 +117,6 @@ Flight::map('notFound', function(){
 
 
 //lokalno
-//Flight::register('db', 'PDO', array('mysql:host=localhost;dbname=P3API;charset=UTF8','root','000000'));
-//server
-Flight::register('db', 'PDO', array('mysql:host=localhost;dbname=tvilcek_p3;charset=UTF8','tvilcek','123456'));
+Flight::register('db', 'PDO', array('mysql:host=localhost;dbname=P3API;charset=UTF8','root',''));
 
 Flight::start();
